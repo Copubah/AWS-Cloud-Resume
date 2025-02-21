@@ -32,6 +32,10 @@
 
 1. Create a DynamoDB table,table name:Visitor count,Partition key:id(set value to '1')for a single record,Attribute:count(stores the visitor count)
 2. Create a Lambda Function(I have a file called main.py)
-3. 
+3. Use AWS Management Console or Terraform/CDK to deploy
+4. Create an API Gateway point
+  - Set up an API Gateway HTTP API to trigger the Lambda function
+  - Enable CORS to allow JavaScript to fetch data from your website.
+5. Connect API to the Frontend
 
 
